@@ -64,6 +64,9 @@ console.log(`${student_Details[0].name} age is ${student_Details[0].age} and cou
 
 
 
+
+
+
 //2.Objects--------------------------------------
 /*
 let employeeDetails = {
@@ -104,6 +107,13 @@ console.log(student_Details.Persion3.Course);
 */
 
 
+
+let book_Details = {bookNames: ["Mahabaratha", "Ramayana", "Bhagavad Gita"],
+                    bookAuthors: ["Vyasa", "Valmiki", "Krishna"],
+                    bookPrice: [500, 600, 700]};
+console.log(book_Details);
+console.log(book_Details.bookAuthors[1]);
+console.log(book_Details.bookPrice[2]);
 
 
 
