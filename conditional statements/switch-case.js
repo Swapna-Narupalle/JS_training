@@ -22,32 +22,33 @@ function calculate(num1, num2, operator) {
     let result;
 
     switch (operator) {
-        case '+':
+        case '+':{
             result = num1 + num2;
             console.log(`${num1} + ${num2} = ${result}`);
-            break;
-        case '-':
+            break;}
+        case '-':{
             result = num1 - num2;
             console.log(`${num1} - ${num2} = ${result}`);
-            break;
-        case '*':
+            break;}
+        case '*':{
             result = num1 * num2;
             console.log(`${num1} * ${num2} = ${result}`);
-            break;
-        case '/':
+            break;}
+        case '/':{
             if (num2 !== 0) {
                 result = num1 / num2;
                 console.log(`${num1} / ${num2} = ${result}`);
             } else {
                 console.log("Division by zero is not allowed.");
             }
-            break;
-        case '%':
+            break;}
+        case '%':{
             result = num1 % num2;
             console.log(`${num1} % ${num2} = ${result}`);
-            break;
-        default:
+            break;}
+        default:{
             console.log("Invalid operator. Please use +, -, *, /, or %.");
+        }
     }
 }
 
