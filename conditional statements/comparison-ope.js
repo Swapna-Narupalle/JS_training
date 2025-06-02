@@ -12,7 +12,7 @@ phoneNumber(() => {
     let number = "9010244141";
     let phNumber = number.length;
     return phNumber;
-})
+});
 
 
 let isactor =true;
@@ -63,3 +63,12 @@ votersEligibility(12,() => {
     let Person2age = 12;
     return(Person2age);
 })
+
+
+let number = 6;
+if(number!=6) {
+    console.log("number is not equal to 6");
+}
+else {
+    console.log("number is equal to 6");
+}
