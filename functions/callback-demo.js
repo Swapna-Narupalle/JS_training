@@ -30,7 +30,7 @@ function calc(a,b,callback) {
 // console.log(calc(20,10,mul));
 // console.log(calc(20,10,div));
 
-
+/*
 function showmovieDetails(callback) {
     let details = callback();
     console.log(details);
@@ -42,3 +42,20 @@ showmovieDetails(() => {
     };
     return `movieName:${movieDetails.movieName} , movieActor:${movieDetails.movieActor}`;
 });
+*/
+
+
+function showmovieDetails(callback) {
+    let {movieName, movieActor} = callback();
+    console.log(`movieName:${movieName} , movieActor:${movieActor}`);
+}
+showmovieDetails(() => {
+    let movieDetails = {
+        movieName: "RRR",
+        movieActor:"NTR"
+    };
+    return movieDetails;
+});
+
+
+
