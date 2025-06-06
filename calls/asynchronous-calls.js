@@ -22,3 +22,4 @@ movieDownload();
 watchingReels();
 chatwithFriends();
 
+7
